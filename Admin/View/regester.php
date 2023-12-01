@@ -16,7 +16,7 @@
         transition: all 0.5s ease;
       }
     </style>
-    <script src="../Script/regester.js"></script>
+    <script src="../Script/register.js"></script>
 
   </head>
   <body>
@@ -41,7 +41,7 @@
               <td>
                 <form class="" id="myform" action="../Controller/regCheck.php" onsubmit="return validation()" method="post">
                   <fieldset>
-                    <legend>REGESTER</legend>
+                    <legend>REGISTER</legend>
                     <table>
                       <tr>
                         <td colspan="2">

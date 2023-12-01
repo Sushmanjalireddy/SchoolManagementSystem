@@ -67,7 +67,7 @@
                     <input type="submit" id="submit" name="submit" value="LOGIN">
                     <a href="ForgotPassword.php">FORGOT PASSWORD?</a>
                     <br>
-                    <a href="regester.php">SIGN UP</a>
+                    <a href="register.php">SIGN UP</a>
                   </fieldset>
                 </form>
             </td>

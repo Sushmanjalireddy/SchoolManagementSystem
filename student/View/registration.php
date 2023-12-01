@@ -18,7 +18,7 @@
 <body>
   <form class="" action="../Controller/regCheck.php" onsubmit="return val()" method="post">
     <fieldset>
-      <legend>REGESTRATION</legend>
+      <legend>REGISTRATION</legend>
       <table align="center"> 
 
         <tr>

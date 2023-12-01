@@ -17,7 +17,7 @@
     <?php include("TeacherHeader.php") ?>
       <tr>
         <tr>
-            <td align="Left"><img height="80px" weight="80px" src="../Resources/Teacher.jpg" alt=""></td>
+            <td align="Left"><img height="80px" weight="80px" src="../Resources/StaffMgmt.png" alt=""></td>
             <td align="Left">
             <b>
               Logged in as<br><br>

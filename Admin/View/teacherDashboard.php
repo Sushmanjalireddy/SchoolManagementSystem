@@ -18,21 +18,15 @@
                   <tr >
 
                     <td  align = "center">
-                      <a href="teacherDashboard.php"><img height="100px" weight="100px" src="../Resources/StaffMgmt.png" alt=""></a>
+                      <a href="addTeacher.php"><img height="100px" weight="100px" src="../Resources/RegStudent.png" alt=""></a>
                       <br>
-                      <a href="addTeacher.php">Staff Management</a>
+                      <a href="addTeacher.php">Staff Registration</a>
                     </td>
 
                     <td align = "center">
-                      <a href="addStudent.php"><img height="100px" weight="100px" src="../Resources/StudentMgmt.png" alt=""></a>
+                      <a href="viewTeacher.php"><img height="100px" weight="100px" src="../Resources/ManageStudent.png" alt=""></a>
                       <br>
-                      <a href="addStudent.php">Student Management</a>
-                    </td>
-
-                    <td align = "center">
-                      <a href="addLibrarian.php"><img height="100px" weight="100px" src="../Resources/InventoryMgmt.png" alt=""></a>
-                      <br>
-                      <a href="addLibrarian.php">Analytics</a>
+                      <a href="viewTeacher.php">Manage Staff</a>
                     </td>
 
                   </tr>

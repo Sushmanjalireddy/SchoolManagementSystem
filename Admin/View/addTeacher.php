@@ -5,7 +5,7 @@
 	include('header.php');
 
 ?>
-								<div id="sidebar" class="">
+								<!-- <div id="sidebar" class="">
                 <ul>
                   <li><a href="addTeacher.php">Add Teacher</a></li>
                   <li><a href="viewTeacher.php">View Teacher</a></li>
@@ -14,12 +14,12 @@
                 </ul>
 							
 								</div>
-              </td>
+              </td> -->
 
               <td>
                 <form  class="" id="myform" action="../Controller/regCheckTeacher.php" method="post" onsubmit="return validation()">
                   <fieldset >
-                    <legend>REGESTRATION</legend>
+                    <legend>REGISTRATION</legend>
                       <table align="center">
 												<tr>
 													<td colspan="2">
