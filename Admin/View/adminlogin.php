@@ -65,8 +65,6 @@
                     <input type="checkbox" name="" value=""> Remember Me <br>
                     <br>
                     <input type="submit" id="submit" name="submit" value="LOGIN">
-                    <a href="ForgotPassword.php">FORGOT PASSWORD?</a>
-                    <br>
                     <a href="register.php">SIGN UP</a>
                   </fieldset>
                 </form>
@@ -79,7 +77,7 @@
       </tr>
 
       <tr>
-        <td align="center" >Copyright Ⓒ 2021</td>
+        <td align="center" >Copyright Ⓒ Group 1</td>
       </tr>
 
     </table>

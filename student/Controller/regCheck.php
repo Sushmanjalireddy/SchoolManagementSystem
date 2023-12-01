@@ -50,7 +50,7 @@
                                 if(strlen($ID) == 4)
                                 {
 
-                                    if(strlen($mobile) == 11)
+                                    if(strlen($mobile) == 10)
                                 {
 
                                     if(strlen($password) > 7)
@@ -123,7 +123,7 @@
 
 
                                 }else{
-                                    echo "Mobile number not valid (must contain 11 digits and integer number only) ";
+                                    echo "Mobile number not valid (must contain 10 digits and integer number only) ";
                                 }
 
 

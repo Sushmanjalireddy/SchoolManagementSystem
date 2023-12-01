@@ -39,9 +39,9 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `name`, `email`, `password`) VALUES
-('1001', 'Anirban Saha', 'anirban@gmail.com', '1234567@'),
-('1002', 'Anik', 'anik@gmial.com', '1234'),
-('1005', 'karim', 'karim@gmail.com', 'anik@anik');
+('1001', 'Pawni Khanna', 'pawni@gmail.com', '1234@'),
+('1002', 'Sushma', 'sushma@gmail.com', '1234'),
+('1005', 'Aakash Kapadia', 'aakash@gmail.com', '9999@');
 
 -- --------------------------------------------------------
 
@@ -91,11 +91,11 @@ CREATE TABLE `course` (
 --
 
 INSERT INTO `course` (`id`, `course_name`, `class`, `description`) VALUES
-(1, 'Bangla 2nd Paper', 'Eight', 'Text Book Approved by NCTB'),
-(3, 'Bangla 2nd paper', 'Six', 'Text Book Approved by NCTB'),
-(4, 'English 1st paper', 'Six', 'Text Book Approved by NCTB'),
-(5, 'English 2nd Paper', 'Six', 'Text Book Approved by NCTB'),
-(6, 'General math', 'Eight', 'Text Book Approved by NCTB');
+(1, 'Spring 2022', 'Eight', 'Students admitted in Spring 2022'),
+(2, 'Fall 2022', 'Six', 'Students admitted in Fall 2022'),
+(3, 'Spring 2023', 'Six', 'Students admitted in Spring 2023'),
+(4, 'Fall 2023', 'Six', 'Students admitted in Fall 2023'),
+(5, 'Spring 2024', 'Eight', 'Students admitted in Spring 2024');
 
 -- --------------------------------------------------------
 
@@ -107,7 +107,7 @@ CREATE TABLE `edit_student` (
   `id` varchar(4) NOT NULL,
   `name` varchar(50) NOT NULL,
   `email` varchar(50) NOT NULL,
-  `mobile` varchar(11) NOT NULL,
+  `mobile` varchar(10) NOT NULL,
   `gender` varchar(10) NOT NULL,
   `dob` date NOT NULL,
   `p_address` varchar(70) NOT NULL
@@ -118,7 +118,7 @@ CREATE TABLE `edit_student` (
 --
 
 INSERT INTO `edit_student` (`id`, `name`, `email`, `mobile`, `gender`, `dob`, `p_address`) VALUES
-('4002', 'Arko', 'arko@gmail.com', '01769451236', 'male	', '1997-11-20', 'Dhaka, Bangladesh');
+('4002', 'Arko', 'arko@gmail.com', '1769451236', 'male	', '1997-11-20', 'Dhaka, Bangladesh');
 
 -- --------------------------------------------------------
 
@@ -184,11 +184,11 @@ CREATE TABLE `librarian` (
 --
 
 INSERT INTO `librarian` (`slno`, `id`, `name`, `email`, `mobile`, `gender`, `dob`, `password`) VALUES
-(1, '7001', 'akasha', 'akash@gmail.com', '01776304248', 'male', '1998-07-16', '123'),
-(2, '7002', 'arnob', 'arnob@gmail.com', '01756855555', 'male', '2003-02-05', '12341234@'),
-(3, '7003', 'rahim', 'rahim@gmail.com', '01715846752', 'male', '1988-06-27', '1234'),
-(4, '7004', 'Pranto', 'pranto@gmail.com', '017564214582', 'male', '1991-10-13', '1234'),
-(5, '7005', 'Labony', 'labony@gmail.com', '01845694525', 'female', '1983-09-12', '12345');
+(1, '7001', 'akasha', 'akash@gmail.com', '1776304248', 'male', '1998-07-16', '123'),
+(2, '7002', 'arnob', 'arnob@gmail.com', '1756855555', 'male', '2003-02-05', '12341234@'),
+(3, '7003', 'rahim', 'rahim@gmail.com', '1715846752', 'male', '1988-06-27', '1234'),
+(4, '7004', 'Pranto', 'pranto@gmail.com', '17564214582', 'male', '1991-10-13', '1234'),
+(5, '7005', 'Labony', 'labony@gmail.com', '1845694525', 'female', '1983-09-12', '12345');
 
 -- --------------------------------------------------------
 
@@ -297,12 +297,12 @@ CREATE TABLE `routine` (
 --
 
 INSERT INTO `routine` (`day`, `10:00-11:00`, `11:00-12:00`, `12:00-01:00`, `01:00-02:00`, `02:00-03:00`, `03:00-04:00`) VALUES
-('Saturday', 'Bangla', 'English', 'Math', 'Bangladesh and global studies', 'Religion', 'Physical education and health'),
-('Sunday', 'Physical education and health', 'Religion', 'Math', 'Bangla', 'Bangladesh and global studies', 'English'),
-('Monday', 'Bangla', 'English', 'Bangladesh and global studies', 'Math', 'Religion', 'Physical education and health'),
-('Tuesday', 'English', 'Bangla', 'Bangladesh and global studies', 'Math', 'Physical education and health', 'Religion'),
-('Wednesday', 'Bangladesh and global studies', 'English', 'Bangla', 'Math', 'Religion', 'Physical education and health'),
-('Thursday', 'Bangladesh and global studies', 'Bangla', 'Math', 'Religion', 'English', 'Physical education and health');
+('Saturday', 'Bangla', 'English', 'Spring 2022', 'Bangladesh and global studies', 'Religion', 'Physical education and health'),
+('Sunday', 'Physical education and health', 'Religion', 'Spring 2023', 'Bangla', 'Bangladesh and global studies', 'English'),
+('Monday', 'Bangla', 'English', 'Bangladesh and global studies', 'Fall 2022', 'Religion', 'Physical education and health'),
+('Tuesday', 'English', 'Bangla', 'Bangladesh and global studies', 'Fall 2023', 'Physical education and health', 'Religion'),
+('Wednesday', 'Bangladesh and global studies', 'English', 'Bangla', 'Fall 2022', 'Religion', 'Physical education and health'),
+('Thursday', 'Bangladesh and global studies', 'Bangla', 'Spring 2023', 'Religion', 'English', 'Physical education and health');
 
 -- --------------------------------------------------------
 
@@ -350,12 +350,12 @@ CREATE TABLE `student` (
 --
 
 INSERT INTO `student` (`id`, `name`, `email`, `mobile`, `gender`, `dob`, `class`, `section`, `roll`, `p_address`, `password`, `marks`) VALUES
-('3001', 'anindo saha', 'anindo@gmail.com', '01711811411', 'male', '2006-02-02', 'Seven', 'B', '25', 'Ullapara,Sirajganj', '12345678@', '98'),
-('3002', 'karim', 'karim@gmil.com', '01758631248', 'male', '2004-11-29', 'Eight', 'B', '22', 'khulna', '12345678@', '55'),
-('3004', 'Rahim ali', 'rahim@a.com', '01745693625', 'male', '2009-02-02', 'Seven', 'B', '55', 'ullapara', '12341234@', '88'),
-('4001', 'anik saha', 'anik@gmail.com', '01756551234', 'male', '2004-06-16', 'Seven', 'B', '24', 'nikunja-2', '2554', '45'),
-('4003', 'Ella', 'ella@gmail.com', '01776584213', 'female', '2004-02-13', 'Eight', 'B', '19', 'dhaka', '12345678@', '96'),
-('4004', 'Laura', 'l@gmail.com', '01772541167', 'female', '2003-09-11', 'Seven', 'B', '65', 'khulna', '12345678@', '66');
+('3001', 'anindo saha', 'anindo@gmail.com', '1711811411', 'male', '2006-02-02', 'Fall 2023', 'B', '25', 'Ullapara,Sirajganj', '12345678@', '98'),
+('3002', 'karim', 'karim@gmil.com', '1758631248', 'male', '2004-11-29', 'Fall 2022', 'B', '22', 'khulna', '12345678@', '55'),
+('3004', 'Rahim ali', 'rahim@a.com', '1745693625', 'male', '2009-02-02', 'Spring 2023', 'B', '55', 'ullapara', '12341234@', '88'),
+('4001', 'anik saha', 'anik@gmail.com', '1756551234', 'male', '2004-06-16', 'Fall 2023', 'B', '24', 'nikunja-2', '2554', '45'),
+('4003', 'Ella', 'ella@gmail.com', '1776584213', 'female', '2004-02-13', 'Fall 2022', 'B', '19', 'dhaka', '12345678@', '96'),
+('4004', 'Laura', 'l@gmail.com', '1772541167', 'female', '2003-09-11', 'Spring 2023', 'B', '65', 'khulna', '12345678@', '66');
 
 -- --------------------------------------------------------
 
@@ -401,15 +401,15 @@ CREATE TABLE `teacher` (
 --
 
 INSERT INTO `teacher` (`id`, `name`, `email`, `mobile`, `gender`, `dob`, `subject`, `password`) VALUES
-('2001', 'Kowshik Chakraborty', 'kowshik@gmail.com', '01764199181', 'male', '1984-08-09', '', '4567'),
-('2002', 'nahin all', 'nahin@gmail.com', '01711845611', 'male', '2009-07-15', '', '1234@1234'),
-('2003', 'anik saha', 'a@gmail.com', '01745361245', 'male', '2016-02-09', '', '12341234@'),
-('2006', 'kowshik sss', 's@s.com', '01756984231', 'male', '2013-01-02', 'Math', '12345@@123'),
-('2008', 'John', 'john@gmail.com', '01758964512', 'male', '2021-04-23', '', '1234567!'),
-('2009', 'Kowshik Chakraborty', 'kowshik@gmail.com', '01754697845', 'Male', '2013-06-23', 'Math', '1234567@'),
-('2011', 'anirban', 'anirban@gmaill.com', '01711814155', 'male', '2019-03-16', '', '12345678@'),
-('2013', 'anirban Saha', 'anirban@gmail.com', '01711811415', 'male', '2014-03-20', '', '12345678@'),
-('2014', 'anik', 'a@a.com', '01776304244', 'female', '2021-03-31', '', '1234567@@');
+('2001', 'Pawni Khanna', 'pawnik@gmail.com', '1764199181', 'male', '1984-08-09', 'Fall 2023', '4567'),
+('2002', 'nahin all', 'nahin@gmail.com', '1711845611', 'male', '2009-07-15', '', '1234@1234'),
+('2003', 'anik saha', 'a@gmail.com', '1745361245', 'male', '2016-02-09', '', '12341234@'),
+('2006', 'kowshik sss', 's@s.com', '1756984231', 'male', '2013-01-02', 'Fall 2023', '12345@@123'),
+('2008', 'John', 'john@gmail.com', '1758964512', 'male', '2021-04-23', '', '1234567!'),
+('2009', 'Kowshik Chakraborty', 'kowshik@gmail.com', '1754697845', 'Male', '2013-06-23', 'Fall 2023', '1234567@'),
+('2011', 'anirban', 'anirban@gmaill.com', '1711814155', 'male', '2019-03-16', '', '12345678@'),
+('2013', 'anirban Saha', 'anirban@gmail.com', '1711811415', 'male', '2014-03-20', '', '12345678@'),
+('2014', 'anik', 'a@a.com', '1776304244', 'female', '2021-03-31', '', '1234567@@');
 
 -- --------------------------------------------------------
 

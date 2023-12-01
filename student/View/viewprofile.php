@@ -70,7 +70,7 @@ $viemyinfo = getUserbyid($_COOKIE['id']);
 
             
                <tr>
-                <td>Roll No</td> 
+                <td>Parent's Number</td> 
                 <td>:</td>
                 <td><?php echo $viemyinfo['roll']; ?></td>
                </tr>

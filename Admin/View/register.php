@@ -2,8 +2,8 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Regester</title>
-    <link rel="stylesheet" href="../Style/regester.css">
+    <title>Register</title>
+    <link rel="stylesheet" href="../Style/register.css">
     <style media="screen">
       #error_messege{
         color: White;
@@ -89,7 +89,7 @@
       </tr>
 
       <tr>
-        <td align="center" >Copyright Ⓒ 2021</td>
+        <td align="center" >Copyright Ⓒ Group 1</td>
       </tr>
 
     </table>

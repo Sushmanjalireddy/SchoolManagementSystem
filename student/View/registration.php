@@ -93,7 +93,7 @@
         </tr>
 
         <tr>
-          <td>Roll No</td>
+          <td>Parent's Number</td>
           <td>:<input type="number" id="roll"  name="roll" value=""></td>
         </tr>
         <tr>

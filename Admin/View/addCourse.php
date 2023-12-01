@@ -30,13 +30,13 @@
                           <td>:<input type="text" id="name" name="name" placeholder=""></td>
                         </tr>
                         <tr>
-                          <td>Class</td>
+                          <td>Semester</td>
                           <td>:<select id="classE" name="class">
-                              <option value="Six">Six</option>
-                              <option value="Seven">Seven</option>
-                              <option value="Eight">Eight</option>
-                              <option value="Nine">Nine</option>
-                              <option value="Ten">Ten</option>
+                              <option value="Spring 2022">Spring 2022</option>
+                              <option value="Fall 2022">Fall 2022</option>
+                              <option value="Spring 2023">Spring 2023</option>
+                              <option value="Fall 2023">Fall 2023</option>
+                              <option value="Spring 2024">Spring 2024</option>
                             </select>
                           </td>
                         <tr>
