@@ -19,8 +19,8 @@
 			echo "null submission...";
 		}else{
 			if($password == $repass){
-        if(strlen($id) == 4){
-          if(strlen($mobile) == 11){
+        if(strlen($id) != ""){
+          if(strlen($mobile) == 10){
             if(strlen($password) > 7){
               for($j=0; $j<strlen($password); $j++){
                 if(($password[$j] == '@') || ($password[$j] == '#') || ($password[$j] == '$') || ($password[$j] == '%') || ($password[$j] == '!')){
@@ -62,11 +62,11 @@
             }
 
           }else {
-            echo "Mobile must contain 11 digits and integer number only";
+            echo "Mobile must contain 10 digits and integer number only";
           }
 
         }else {
-          echo "Id must contain 04 digits and integer number only";
+          echo "UIN cannot be empty";
         }
 			}else{
 				echo "password & confirm password mismatch..";

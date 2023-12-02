@@ -7,7 +7,7 @@
   $updatemyinfo = getUserbyid($id);
   $_SESSION['id'] = $id;
 ?>
-							<div id="sidebar" class="">
+							<!-- <div id="sidebar" class="">
                 <ul>
                   <li><a href="addStudent.php">Add Student</a></li>
                   <li><a href="viewStudent.php">View Student</a></li>
@@ -17,7 +17,7 @@
 
                 </ul>
 							</div>
-              </td>
+              </td> -->
               <td>
                 <form id="inform" action="../controller/updateCheckStudent.php" onsubmit="return validation()" method="post">
 
@@ -66,13 +66,13 @@
                         <td>:<input type="text" id="p_address" name="p_address" value="<?php echo $updatemyinfo['p_address']; ?>"></td>
                       </tr>
                       <tr>
-                        <td>Class</td>
+                        <td>Semester</td>
                         <td>:<select id="classE" name="class">
-                            <option <?php  if($updatemyinfo['class']=="Six"){?> selected="true" <?php } ?> value="Six">Six</option>
-                            <option <?php  if($updatemyinfo['class']=="Seven"){?> selected="true" <?php } ?> value="Seven">Seven</option>
-                            <option <?php  if($updatemyinfo['class']=="Eight"){?> selected="true" <?php } ?> value="Eight">Eight</option>
-                            <option <?php  if($updatemyinfo['class']=="Nine"){?> selected="true" <?php } ?> value="Nine">Nine</option>
-                            <option <?php  if($updatemyinfo['class']=="Ten"){?> selected="true" <?php } ?> value="Ten">Ten</option>
+                        <option <?php  if($updatemyinfo['class']=="Spring 2022"){?> selected="true" <?php } ?>  value="Spring 2022">Spring 2022</option>
+                            <option  <?php  if($updatemyinfo['class']=="Fall 2022"){?> selected="true" <?php } ?>  value="Fall 2022">Fall 2022</option>
+                            <option  <?php  if($updatemyinfo['class']=="Spring 2023"){?> selected="true" <?php } ?>  value="Spring 2023">Spring 2023</option>
+                            <option  <?php  if($updatemyinfo['class']=="Fall 2023"){?> selected="true" <?php } ?>  value="Fall 2023">Fall 2023</option>
+                            <option  <?php  if($updatemyinfo['class']=="Spring 2024"){?> selected="true" <?php } ?>  value="Spring 2024">Spring 2024</option>
                           </select>
                         </td>
                       </tr>
@@ -86,7 +86,7 @@
                         </td>
                       </tr>
                       <tr>
-                        <td>Roll No</td>
+                        <td>Parent's Number</td>
                         <td>:<input type="text" id="roll" name="roll" value="<?php echo $updatemyinfo['roll']; ?>"></td>
                       </tr>
                     </table>

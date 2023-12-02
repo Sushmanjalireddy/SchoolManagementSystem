@@ -18,7 +18,7 @@
 <body>
   <form class="" action="../Controller/regCheck.php" onsubmit="return val()" method="post">
     <fieldset>
-      <legend>REGESTRATION</legend>
+      <legend>REGISTRATION</legend>
       <table align="center"> 
 
         <tr>
@@ -93,7 +93,7 @@
         </tr>
 
         <tr>
-          <td>Roll No</td>
+          <td>Parent's Number</td>
           <td>:<input type="number" id="roll"  name="roll" value=""></td>
         </tr>
         <tr>

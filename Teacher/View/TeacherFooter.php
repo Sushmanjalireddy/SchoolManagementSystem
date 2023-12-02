@@ -1,3 +1,3 @@
 <tr>
-    <td align="center" colspan="2">Copyright Ⓒ 2021</td>
+    <td align="center" colspan="2">Copyright Ⓒ Group 1</td>
 </tr>

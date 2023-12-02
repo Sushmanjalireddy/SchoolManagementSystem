@@ -16,7 +16,7 @@
 		}
     else{
 			if($password == $repass){
-        if(strlen($id) == 4){
+        if(strlen($id) != ""){
             if(strlen($password) > 7){
               for($j=0; $j<strlen($password); $j++){
                 if(($password[$j] == '@') || ($password[$j] == '#') || ($password[$j] == '$') || ($password[$j] == '%') || ($password[$j] == '!')){
@@ -55,7 +55,7 @@
               echo "Password length should be greater than 7";
             }
         }else {
-          echo "Id must contain 04 digits and integer number only";
+          echo "UIN cannot be empty";
         }
 			}else{
 				echo "password & confirm password mismatch..";

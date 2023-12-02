@@ -10,7 +10,7 @@
     $gender = $_POST['gender'];
     $dob = $_POST['dob'];
 
-			if(strlen($mobile) == 11){
+			if(strlen($mobile) == 10){
 				for($i=0; $i<strlen($name); $i++){
 					if((ord($name[$i]) >= 97 && ord($name[$i]) <= 122) || (ord($name[$i]) >= 65 && ord($name[$i]) <= 90) || ord($name[$i]) == ' '){
 						if(strlen($name) > 2){
@@ -33,7 +33,7 @@
 					}
 				}
 			}else {
-				echo "Mobile must contain 11 digits and integer number only";
+				echo "Mobile must contain 10 digits and integer number only";
 			}
 
 	}

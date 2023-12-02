@@ -21,14 +21,14 @@ function EditProfile(){
           }
           else {  
 
-            if (isNaN(mobile) || mobile.length != 11){
+            if (isNaN(mobile) || mobile.length != 10){
                 text = "**Please enter valid mobile Number**";
                 error_messege.innerHTML = text;
                 return false;
               }
             else {
-                if (id.length != 4){
-                  text = "**ID must be 4 digit**";
+                if (id.length == 0){
+                  text = "**UIN cannot be empty**";
                   error_messege.innerHTML = text;
                   return false;
                 }

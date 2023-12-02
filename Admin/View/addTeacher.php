@@ -1,11 +1,11 @@
 <?php
 	$title = "add Teacher";
 	$js = "../Script/addValidationTeacher.js";
-	// $style = "../Style/regester.css";
+	// $style = "../Style/register.css";
 	include('header.php');
 
 ?>
-								<div id="sidebar" class="">
+								<!-- <div id="sidebar" class="">
                 <ul>
                   <li><a href="addTeacher.php">Add Teacher</a></li>
                   <li><a href="viewTeacher.php">View Teacher</a></li>
@@ -14,12 +14,12 @@
                 </ul>
 							
 								</div>
-              </td>
+              </td> -->
 
               <td>
                 <form  class="" id="myform" action="../Controller/regCheckTeacher.php" method="post" onsubmit="return validation()">
                   <fieldset >
-                    <legend>REGESTRATION</legend>
+                    <legend>REGISTRATION</legend>
                       <table align="center">
 												<tr>
 													<td colspan="2">
@@ -28,6 +28,10 @@
 	                          </div>
 	                        </center>
 												</tr>
+                        <tr>
+                          <td>Employee Number</td>
+                          <td>:<input type="text" id="id"  name="id" value=""></td>
+                        </tr>
                         <tr>
                           <td>Name</td>
                           <td>:<input type="text" id="name" name="name" placeholder="Enter Full Name"></td>
@@ -39,10 +43,6 @@
                         <tr>
                           <td>Mobile No</td>
                           <td>:<input type="text"  id="mobile" name="mobile" value=""></td>
-                        </tr>
-                        <tr>
-                          <td>Id</td>
-                          <td>:<input type="text" id="id"  name="id" value=""></td>
                         </tr>
                         <tr>
                           <td>Password</td>
@@ -65,14 +65,14 @@
                           <td>:<input type="date" id="dob"  name="dob" value=""></td>
                         </tr>
 												<tr>
-                          <td>Subject</td>
+                          <td>Semester</td>
                           <td>:<select id="subject" name="subject">
-                              <option value="Bangla">Bangla</option>
-                              <option value="English">English</option>
-                              <option value="Math">Math</option>
-                              <option value="Bangladesh and global studies">Bangladesh and global studies</option>
-                              <option value="Religion">Religion</option>
-															<option value="Physical education and health">Physical education and health</option>
+                              <option value="Spring 2022">Spring 2022</option>
+                              <option value="Fall 2022">Fall 2022</option>
+                              <option value="Spring 2023">Spring 2023</option>
+                              <option value="Fall 2023">Fall 2023</option>
+                              <option value="Spring 2024">Spring 2024</option>
+                              <option value="Fall 2024">Fall 2024</option>
                             </select>
                           </td>
 												</tr>

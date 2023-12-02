@@ -61,14 +61,13 @@
                         <td>:<input type="date" id="dob" name="dob" value="<?php echo $updatemyinfo['dob']; ?>"></td>
                       </tr>
 											<tr>
-												<td>Subject</td>
+												<td>Semester</td>
 												<td>:<select id="subject" name="subject">
-														<option <?php  if($updatemyinfo['subject']=="Bangla"){?> selected="true" <?php } ?> value="Bangla">Bangla</option>
-														<option <?php  if($updatemyinfo['subject']=="English"){?> selected="true" <?php } ?> value="English">English</option>
-														<option <?php  if($updatemyinfo['subject']=="Math"){?> selected="true" <?php } ?> value="Math">Math</option>
-														<option <?php  if($updatemyinfo['subject']=="Bangladesh and global studies"){?> selected="true" <?php } ?> value="Bangladesh and global studies">Bangladesh and global studies</option>
-														<option <?php  if($updatemyinfo['subject']=="Religion"){?> selected="true" <?php } ?> value="Religion">Religion</option>
-														<option <?php  if($updatemyinfo['subject']=="Physical education and health"){?> selected="true" <?php } ?> value="Physical education and health">Physical education and health</option>
+														<option <?php  if($updatemyinfo['subject']=="Spring 2022"){?> selected="true" <?php } ?> value="Spring 2022">Spring 2022</option>
+														<option <?php  if($updatemyinfo['subject']=="Fall 2022"){?> selected="true" <?php } ?> value="Fall 2022">Fall 2022</option>
+														<option <?php  if($updatemyinfo['subject']=="Spring 2023"){?> selected="true" <?php } ?> value="Fall 2023">Spring 2023</option>
+														<option <?php  if($updatemyinfo['subject']=="Fall 2023"){?> selected="true" <?php } ?> value="Fall 2023">Fall 2023</option>
+														<option <?php  if($updatemyinfo['subject']=="Spring 2024"){?> selected="true" <?php } ?> value="Spring 2024">Spring 2024</option>
 													</select>
 												</td>
 											</tr>

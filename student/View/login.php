@@ -40,7 +40,7 @@
                   <legend>LOGIN</legend>
                   <table>
                     <tr>
-                      <td>ID</td>
+                      <td>UIN</td>
                       <td>: <input type="text" id="id" name="id" value=""></td>
                     </tr>
                     <tr>
@@ -69,7 +69,7 @@
       </td>
     </tr>
     <tr>
-      <td align="center">Copyright Ⓒ 2021</td>
+      <td align="center">Copyright Ⓒ Group 1</td>
     </tr>
   </table>
 </body>

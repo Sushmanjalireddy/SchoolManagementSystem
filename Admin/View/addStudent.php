@@ -3,7 +3,7 @@
 	$js = "../Script/addStuValidation.js";
 	include('header.php');
 ?>
-								<div id="sidebar" class="">
+								<!-- <div id="sidebar" class="">
                 <ul>
                   <li><a href="addStudent.php">Add Student</a></li>
                   <li><a href="viewStudent.php">View Student</a></li>
@@ -14,12 +14,12 @@
 
 
 								</div>
-              </td>
+              </td> -->
 
               <td>
                 <form  class=""  id="inform" action="../Controller/regCheckStudent.php" onsubmit="return validation()" method="post">
                   <fieldset >
-                    <legend>REGESTRATION</legend>
+                    <legend>REGISTRATION</legend>
                       <table align="center">
 												<tr>
 													<td colspan="2">
@@ -41,7 +41,7 @@
                           <td>:<input type="text" id="mobile" name="mobile" value=""></td>
                         </tr>
                         <tr>
-                          <td>Id</td>
+                          <td>UIN</td>
                           <td>:<input type="text" id="id" name="id" value=""></td>
                         </tr>
                         <tr>
@@ -69,13 +69,13 @@
                           <td>:<input type="text"  id="p_address" name="p_address" value=""></td>
                         </tr>
                         <tr>
-                          <td>Class</td>
+                          <td>Semester</td>
                           <td>:<select id="classE" name="class">
-                              <option value="Six">Six</option>
-                              <option value="Seven">Seven</option>
-                              <option value="Eight">Eight</option>
-                              <option value="Nine">Nine</option>
-                              <option value="Ten">Ten</option>
+                            <option value="Spring 2022">Spring 2022</option>
+                            <option value="Fall 2022">Fall 2022</option>
+                            <option value="Spring 2023">Spring 2023</option>
+                            <option value="Fall 2023">Fall 2023</option>
+                            <option value="Spring 2024">Spring 2024</option>
                             </select>
                           </td>
                         </tr>
@@ -87,9 +87,9 @@
                               <option value="B">B</option>
                             </select>
                           </td>
-                        </tr>
+												</tr>
                         <tr>
-                          <td>Roll No</td>
+                          <td>Parent's Number</td>
                           <td>:<input type="text" id="roll" name="roll" value=""></td>
                         </tr>
                       </table>

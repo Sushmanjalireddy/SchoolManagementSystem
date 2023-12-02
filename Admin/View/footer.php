@@ -1,5 +1,5 @@
 <tr>
-  <td align="center" >Copyright Ⓒ 2021</td>
+  <td align="center" >Copyright Ⓒ Group 1</td>
 </tr>
 
 </table>

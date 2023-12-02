@@ -19,7 +19,7 @@
               <td>
                 <form  class="" id="myform" action="../Controller/regCheckLibrarian.php" onsubmit="return validation()" method="post">
                   <fieldset >
-                    <legend>REGESTRATION</legend>
+                    <legend>REGISTRATION</legend>
                       <table align="center">
 												<tr>
 													<td colspan="2">

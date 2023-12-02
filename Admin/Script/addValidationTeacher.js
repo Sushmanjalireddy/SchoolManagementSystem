@@ -34,12 +34,12 @@ function validation(){
         }
         else {
           if (isNaN(id)){
-            text = "ID must be Number";
+            text = "UIN must be Number";
             error_messege.innerHTML = text;
             return false;
           }
-          if (id.length != 4){
-            text = "ID must be 4 digit";
+          if (id.length == 0){
+            text = "UIN cannot be empty";
             error_messege.innerHTML = text;
             return false;
           }
@@ -48,8 +48,8 @@ function validation(){
             error_messege.innerHTML = text;
             return false;
           }
-          if (mobile.length != 11){
-            text = "Mobile Number must be 11 digit";
+          if (mobile.length != 10){
+            text = "Mobile Number must be 10 digit";
             error_messege.innerHTML = text;
             return false;
           }

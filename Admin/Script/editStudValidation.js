@@ -28,18 +28,18 @@ function validation(){
             error_messege.innerHTML = text;
             return false;
           }
-          if (mobile.length != 11){
-            text = "Mobile Number must be 11 digit";
+          if (mobile.length != 10){
+            text = "Mobile Number must be 10 digit";
             error_messege.innerHTML = text;
             return false;
           }
           if (isNaN(roll)){
-            text = "Roll number must be Number";
+            text = "Parent's number must be Number";
             error_messege.innerHTML = text;
             return false;
           }
-          if (roll.length > 3){
-            text = "Roll Number is not valid";
+          if (roll.length != 10){
+            text = "Parent's Number is not valid";
             error_messege.innerHTML = text;
             return false;
           }
