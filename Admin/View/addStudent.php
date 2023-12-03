@@ -80,14 +80,14 @@
                           </td>
                         </tr>
 
-                        <tr >
-                          <td>Section</td>
+                        <!-- <tr >
+                          <td>International Student</td>
                           <td>:<select id="section" name="section">
                               <option value="A">A</option>
                               <option value="B">B</option>
                             </select>
                           </td>
-												</tr>
+												</tr> -->
                         <tr>
                           <td>Parent's Number</td>
                           <td>:<input type="text" id="roll" name="roll" value=""></td>

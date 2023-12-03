@@ -16,7 +16,7 @@
         <td>
             <table width="100%">
                 <tr>
-                  <td><img height="40px" weight="40px" src="../Resources/school_logo.png" alt=""></td>
+                  <!-- <td><img height="40px" weight="40px" src="../Resources/school_logo.png" alt=""></td> -->
                   <td align = "right">
                       <a href="HomePage.php">Home</a>|
                       <a href="LoginPage.php">Login</a>|

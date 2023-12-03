@@ -350,12 +350,12 @@ CREATE TABLE `student` (
 --
 
 INSERT INTO `student` (`id`, `name`, `email`, `mobile`, `gender`, `dob`, `class`, `section`, `roll`, `p_address`, `password`, `marks`) VALUES
-('3001', 'anindo saha', 'anindo@gmail.com', '1711811411', 'male', '2006-02-02', 'Fall 2023', 'B', '25', 'Ullapara,Sirajganj', '12345678@', '98'),
-('3002', 'karim', 'karim@gmil.com', '1758631248', 'male', '2004-11-29', 'Fall 2022', 'B', '22', 'khulna', '12345678@', '55'),
-('3004', 'Rahim ali', 'rahim@a.com', '1745693625', 'male', '2009-02-02', 'Spring 2023', 'B', '55', 'ullapara', '12341234@', '88'),
-('4001', 'anik saha', 'anik@gmail.com', '1756551234', 'male', '2004-06-16', 'Fall 2023', 'B', '24', 'nikunja-2', '2554', '45'),
-('4003', 'Ella', 'ella@gmail.com', '1776584213', 'female', '2004-02-13', 'Fall 2022', 'B', '19', 'dhaka', '12345678@', '96'),
-('4004', 'Laura', 'l@gmail.com', '1772541167', 'female', '2003-09-11', 'Spring 2023', 'B', '65', 'khulna', '12345678@', '66');
+('653989756', 'anindo saha', 'anindo@gmail.com', '1711811411', 'male', '2006-02-02', 'Fall 2023', 'B', '25', 'Ullapara,Sirajganj', '12345678@', '98'),
+('653945770', 'karim', 'karim@gmil.com', '1758631248', 'male', '2004-11-29', 'Fall 2022', 'B', '22', 'khulna', '12345678@', '55'),
+('650098716', 'Rahim ali', 'rahim@a.com', '1745693625', 'male', '2009-02-02', 'Spring 2023', 'B', '55', 'ullapara', '12341234@', '88'),
+('653759736', 'anik saha', 'anik@gmail.com', '1756551234', 'male', '2004-06-16', 'Fall 2023', 'B', '24', 'nikunja-2', '2554', '45'),
+('653989906', 'Ella', 'ella@gmail.com', '1776584213', 'female', '2004-02-13', 'Fall 2022', 'B', '19', 'dhaka', '12345678@', '96'),
+('651190246', 'Laura', 'l@gmail.com', '1772541167', 'female', '2003-09-11', 'Spring 2023', 'B', '65', 'khulna', '12345678@', '66');
 
 -- --------------------------------------------------------
 

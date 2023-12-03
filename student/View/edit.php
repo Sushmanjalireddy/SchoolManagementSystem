@@ -31,12 +31,6 @@ $viemyinfo = getUserbyid($_COOKIE['id']);
         </tr>
 
         <tr>
-          <td>Student Id</td>
-          <td>:</td>
-          <td> <input type="number" id="id" name="id" value="<?php echo $viemyinfo['id']; ?>"></td>
-        </tr>
-
-        <tr>
           <td>Gender</td>
           <td>:</td>
           <td><input type="radio" id="gender" name="gender" <?php if ($viemyinfo['gender'] == "male") { ?> checked="true" <?php } ?> value="male">Male

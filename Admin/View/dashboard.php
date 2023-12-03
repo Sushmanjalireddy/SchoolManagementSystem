@@ -29,11 +29,11 @@
                       <a href="studentDashboard.php">Student Management</a>
                     </td>
 
-                    <td align = "center">
+                    <!-- <td align = "center">
                       <a href="addLibrarian.php"><img height="100px" weight="100px" src="../Resources/InventoryMgmt.png" alt=""></a>
                       <br>
                       <a href="addLibrarian.php">Analytics</a>
-                    </td>
+                    </td> -->
 
                   </tr>
 

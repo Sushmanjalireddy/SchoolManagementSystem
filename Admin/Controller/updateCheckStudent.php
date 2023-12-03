@@ -11,14 +11,14 @@
     $dob = $_POST['dob'];
     $p_address = $_POST['p_address'];
     $class = $_POST['class'];
-    $section = $_POST['section'];
+    // $section = $_POST['section'];
     $roll = $_POST['roll'];
 
 		if(strlen($mobile) == 10){
 			for($i=0; $i<strlen($name); $i++){
 				if((ord($name[$i]) >= 97 && ord($name[$i]) <= 122) || (ord($name[$i]) >= 65 && ord($name[$i]) <= 90) || ord($name[$i]) == ' '){
 					if(strlen($name) > 2){
-						$userinfo = array('id' => $id,'name' => $name, 'email' => $email, 'mobile' => $mobile,'gender' => $gender,'dob' => $dob,'p_address' => $p_address,'class' => $class,'section' => $section,'roll' => $roll);
+						$userinfo = array('id' => $id,'name' => $name, 'email' => $email, 'mobile' => $mobile,'gender' => $gender,'dob' => $dob,'p_address' => $p_address,'class' => $class,'roll' => $roll);
 						$check = updateMyInfo($id, $userinfo);
 						if($check)
 						{

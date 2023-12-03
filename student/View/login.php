@@ -19,7 +19,7 @@
       <td>
         <table width="100%">
           <tr>
-            <td><img height="50px" weight="50px" src="../Resources/logo.png" alt=""></td>
+            <!-- <td><img height="50px" weight="50px" src="../Resources/logo.png" alt=""></td> -->
             <td align="center">
               <h1>School Management System</h1>
             </td>

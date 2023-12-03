@@ -19,7 +19,7 @@
 
 
 		if($id == "" || $name == "" || $email == "" || $password == "" || $repass == ""
-    || $mobile == ""|| $gender == ""|| $dob == "" || $p_address == "" || $class == "" || $section == "" || $roll == "" ){
+    || $mobile == ""|| $gender == ""|| $dob == "" || $p_address == "" || $class == "" || $roll == "" ){
 			echo "null submission...";
 		}else{
 			if($password == $repass){
@@ -42,7 +42,7 @@
                                 'dob'=> $dob,
                                 'p_address'=> $p_address,
                                 'class'=> $class,
-                                'section'=> $section,
+                                // 'section'=> $section,
                                 'roll'=> $roll
 
                   						];

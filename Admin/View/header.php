@@ -35,7 +35,7 @@
         <td>
           <table width="100%">
             <tr id="header">
-              <td><a href="dashboard.php"><img height="50px" weight="50px" src="../Resources/logo.png" alt=""></a></td>
+              <!-- <td><a href="dashboard.php"><img height="50px" weight="50px" src="../Resources/logo.png" alt=""></a></td> -->
               <td align = "center"><h1>School Management System</h1></td>
               <td align = "right">
                 <a href="dashboard.php">Back</a> |

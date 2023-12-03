@@ -62,11 +62,11 @@ $viemyinfo = getUserbyid($_COOKIE['id']);
 
                
                
-               <tr>
+               <!-- <tr>
                 <td>Section</td> 
                 <td>:</td>
                 <td><?php echo $viemyinfo['section']; ?></td>
-               </tr>
+               </tr> -->
 
             
                <tr>

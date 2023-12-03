@@ -35,8 +35,7 @@
 										<td>DOB</td>
 										<td>Present Address</td>
 										<td>Class</td>
-										<td>Section</td>
-										<td>Roll</td>
+										<td>Parent's Mobile</td>
 										<td>Action</td>
 								</tr>";
 								for($i = 0; $i<count($UsersList); $i++){
@@ -49,7 +48,6 @@
 										<td>{$UsersList[$i]['dob']}</td>
 										<td>{$UsersList[$i]['p_address']}</td>
 										<td>{$UsersList[$i]['class']}</td>
-										<td>{$UsersList[$i]['section']}</td>
 										<td>{$UsersList[$i]['roll']}</td>
 										<td> <a href='editStudent.php?id={$UsersList[$i]['id']}'> Edit </a> | <a href='deleteStudent.php?id={$UsersList[$i]['id']}'> Delete </a>  </td>
 								</tr>";

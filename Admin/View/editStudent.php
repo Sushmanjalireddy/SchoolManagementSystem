@@ -32,7 +32,7 @@
 												</center>
 											</tr>
                       <tr>
-                        <td>Id</td>
+                        <td>UIN</td>
                         <td>:<input id="id" type="text" name="id" disabled value="<?php echo $updatemyinfo['id']; ?>"></td>
                       </tr>
                       <tr>
@@ -77,14 +77,14 @@
                         </td>
                       </tr>
 
-                      <tr>
+                      <!-- <tr>
                         <td>Section</td>
                         <td>:<select id="section" name="section">
                             <option <?php  if($updatemyinfo['section']=="A"){?> selected="true" <?php } ?> value="A">A</option>
                             <option <?php  if($updatemyinfo['section']=="B"){?> selected="true" <?php } ?> value="B">B</option>
                           </select>
                         </td>
-                      </tr>
+                      </tr> -->
                       <tr>
                         <td>Parent's Number</td>
                         <td>:<input type="text" id="roll" name="roll" value="<?php echo $updatemyinfo['roll']; ?>"></td>
